@@ -1,0 +1,164 @@
+.container{
+    width: 573px;
+    height: 720px;
+    border-radius: 25px;
+    background: #F8FAFC;
+    padding-top: 20px;
+    margin: 10px 10px;
+}
+.iconNew{
+    background: linear-gradient(261.65deg, #EFBB37 -3.95%, #CF9E1F 109.44%);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    width: 71px;
+    height: 26px;
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.toper{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.img1{
+    width: 256px;
+    height: 261px;
+    border-radius: 25px;
+    margin-left: 159px;
+}
+.icon1{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 14px 14px;
+}
+.shampoo{
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #2C2C2C;
+}
+.text{
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2C2C2C;
+    width: 483px;
+    height: 72px;
+    margin: auto;
+    
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 46px;
+}
+.value{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.checkboxes{
+ display: flex;
+ flex-direction: column;
+ padding-left: 68px;
+}
+.element-wrapper {
+	padding: 5px;
+}
+
+/* 
+//////////////////////
+Стилизация checkbox 
+//////////////////////
+*/
+
+.checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.checkbox + label {
+  position: relative;
+  vertical-align: middle;
+  padding: 0 0 0 30px;
+  cursor: pointer;
+}
+
+/* Чекбокс в состоянии неактивен */
+.checkbox + label:before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 19px;
+  height: 18px;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Чекбокс в состоянии активен */
+.checkbox + label:after {
+  content: '';
+  position: absolute;
+}
+
+/* Фон чекбокса в состоянии активен */
+.checkbox:checked + label:after {
+  position: absolute;
+  top: 2px;
+  left: 3.2px;
+  border: 1px solid white;
+  background: linear-gradient(261.65deg, #EFBB37 -3.95%, #CF9E1F 109.44%);
+  height: 14px;
+  width: 14px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.counter{
+    display: flex;
+
+}
+.leftButtom{
+    border-radius: 50px 0 0 50px;
+    height: 40px;
+    width: 30px;
+    background: #E2E9F0;
+    border: none;
+}
+.rightButtom{
+    border-radius: 0 50px 50px 0;
+    height: 40px;
+    width: 30px;
+    background: #E2E9F0;
+    border: none;
+}
+.number1{
+    width: 30px;
+    height: 40px;
+    background: #E2E9F0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2C2C2C;
+    padding: 6px 9px;
+}
